@@ -96,14 +96,3 @@ python -m pytest
 docker compose up --build
 ```
 
-## Resume Bullets
-
-```latex
-        \resumeProjectHeading
-{	\textbf{Corridor Fintech Security Review} $|$ \emph{Python, FastAPI, OpenAI API, SQLite, Docker, Pytest}}{}
-\resumeItemListStart
-\resumeItem{Built a production-style \textbf{fintech code review backend} that analyzes source code, detects risky patterns, calculates risk scores, and returns structured security findings through \textbf{FastAPI} endpoints.}
-\resumeItem{Implemented deterministic security checks for \textbf{hardcoded secrets}, \textbf{PCI/PII exposure}, \textbf{SQL injection}, \textbf{unsafe eval/exec}, shell command execution, weak hashing, unsafe deserialization, and debug-mode exposure.}
-\resumeItem{Integrated an optional \textbf{LLM review agent} with persistence, evals/benchmarks, Docker support, and regression tests to validate fintech security finding quality and production readiness.}
-\resumeItemListEnd
-```
