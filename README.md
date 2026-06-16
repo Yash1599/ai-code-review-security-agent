@@ -1,4 +1,4 @@
-# Corridor Fintech Security Review
+# Fintech Security Review
 
 A fintech-focused AI backend for reviewing payment, identity, and platform code.
 
